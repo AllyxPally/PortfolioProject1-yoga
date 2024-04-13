@@ -1,5 +1,27 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@400;700&display=swap');
+
 body {
-background-color: #BDB0A7;
+    
+    background-color: #BDB0A7;
+    font-family: "cherry swash", serif;
+    min-height: 100%;
+}
+
+#image_header {
+    justify-content: right;
+}
+
+/*img {
+max-width: 50%;
+}*/
+
+#navbar {
+    background-color: #ffffff;
+    list-style-type: none;
+    display: flex;
+    justify-content: column;
+
 }
 
 #footer {
