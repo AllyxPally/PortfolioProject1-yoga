@@ -9,21 +9,23 @@ body {
 }
 
 #image_header {
+    display: flex;
+    min-height: 80vh;
     justify-content: right;
+
 }
 
-/*img {
-max-width: 50%;
-}*/
 
-#navbar {
+#nav_bar {
     background-color: #ffffff;
     list-style-type: none;
     display: flex;
-    justify-content: column;
-
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 4rem;
 }
 
 #footer {
     background-color: pink;
+    padding: 20px;
 }
