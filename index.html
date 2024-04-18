@@ -14,36 +14,39 @@
 <body>
     <!-- Header -->
     <header>
-        
         <nav>
-            <div><h2>Yoga Classes</h2> <!-- Move to the left side of the page -->
-            </div>
-            <div>
-                <ul id="nav_bar"> <!-- Need to be able to click these to get to the right section
+            <ul>
+                <!-- Need to be able to click these to get to the right section
                 of the page -->
-                    <li><a href="#about_us"></a>About Us</li>
-                    <li><a href="#sign_up"></a>Sign Up</li>
-                    <li><a href="#contact"></a>Contact</li>
-                </ul>
-            </div>
+                <li><a href="#about_us"></a>About Us</li>
+                <li><a href="#sign_up"></a>Sign Up</li>
+                <li><a href="#contact"></a>Contact</li>
+            </ul>
         </nav>
-        <div id="image_header">
-            <img src="assets/images/woman-doing-yoga.jpg" alt="woman doing yoga by the water">
-        </div>
-
-    </header>
+       </header>
 
     <!-- Main Content -->
     <main>
-        <section>
+         <!--<div id="image_header">
+            <img src="assets/images/woman-doing-yoga.jpg" alt="woman doing yoga by the water">
+        </div>-->
+        <section id="about_us">
+            <div class="content_container">
 
-            <h2 id="about">About Us</h2>
+            <h2>About Us</h2>
+            <p>Yoga offers a range of benefits, such as increased flexibility and improved posture.
+                It helps in reducing stress and promoting relaxation, contributing to better mental health.
+                The focus on breathing techniques can enhance lung capacity and overall respiratory function.
+                Regular practice of yoga can also boost strength and balance, supporting overall physical well-being.
+            </p>
+            </div>
         </section>
 
         <!-- Sign Up -->
-        <section>
+        <section id="sign_up">
+            <div class="content_container">
             <h2>Sign Up</h2>
-            <form>
+            <form id="signup_form">
                 <label for="name" class="form_label name">Name</label>
                 <input type="text" class="form_input" id="name">
                 <label for="email" class="form_label email">Email</label>
@@ -56,12 +59,23 @@
             </form>
 
         </section>
+        <section id="contact">
+            <div class="content_container">
+            <h2>Contact Us</h2>
+            <ul>
+                <li>Phone number: 010 1234 567 890</li>
+                <li>Email: yogaclasses@yoga.net</li>
+                <li>Address: Main Street 1, </li>
+            </ul>
+            </div>
+
+        </section>
     </main>
 
     <!-- Footer -->
     <footer id="footer">
-        <h2>Contact</h2>
-        <div #contact_links>
+        <h2>Placeholder text</h2>
+        <div #social_links>
             <a href="#"><i class="fa fa-facebook-f"></i></a>
             <a href="#"><i class="fa-brands fa-instagram"></i></a>
             <a href="#"><i class="fa fa-twitter"></i></a>
