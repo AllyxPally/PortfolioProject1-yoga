@@ -26,6 +26,16 @@
     <!-- Main Content -->
     <main>
 
+        <section id="cover">
+
+            <div id="cover_content">
+                <h2>Enter some text here</h2>
+                <p>Enter some more text here</p>
+                <a href="#about_us"><button>Read More</button></a>
+            </div>
+
+        </section>
+
         <section id="about_us">
             <div class="content_container">
 
@@ -54,25 +64,22 @@
         <!-- Sign Up -->
         <section id="sign_up">
             <div class="content_container">
+                <!--<h2>Sign Up</h2>-->
+                <!-- This text should be centered above the form or possibly 
+                    be deleted due to lack of purpose. Add a page that shows when someone
+                submits a message -->
+                <form id="signup_form">
+                    <label for="name" class="form_label name">Name</label>
+                    <input type="text" class="form_input" id="name" required>
+                    <label for="email" class="form_label email">Email</label>
+                    <input type="email" class="form_input" id="email" required>
+                    <label for="message" class="form_label message">Message</label>
+                    <textarea name="text" id="message" class="form_textarea" rows="4" cols="50" required></textarea>
+                    <div>
+                        <button type="submit" class="form_button">Submit</button>
+                    </div>
 
-                <div class="signup_left"> <img id="image_signup" src="assets/images/woman-doing-yoga.jpg"
-                        alt="woman doing yoga by the water">
-
-
-                    <!--<h2>Sign Up</h2>--> <!-- This text should be centered above the form or possibly 
-                    be deleted due to lack of purpose -->
-                    <form id="signup_form">
-                        <label for="name" class="form_label name">Name</label>
-                        <input type="text" class="form_input" id="name" required>
-                        <label for="email" class="form_label email">Email</label>
-                        <input type="email" class="form_input" id="email" required>
-                        <label for="message" class="form_label message">Message</label>
-                        <textarea name="text" id="message" class="form_textarea" rows="4" cols="50" required></textarea>
-                        <div>
-                            <button type="submit" class="form_button">Submit</button>
-                        </div>
-
-                    </form>
+                </form>
 
         </section>
         <section id="opening_hours">
@@ -83,7 +90,8 @@
                     <tr>
                         <td>Monday-Wednesday</td>
                         <span>
-                        <td>10:00-22:00</td></span>
+                            <td>10:00-22:00</td>
+                        </span>
                     </tr>
                     <tr>
                         <td>Thursday-Friday</td>
@@ -98,7 +106,7 @@
                         <td>10:00-18:00</td>
                     </tr>
                 </table>
-              
+
                 <!--<ul>
                     <li><b>Phone number: 010 1234 567 890</li>
                     <li>Email: yogaclasses@yoga.net</li>
@@ -106,13 +114,14 @@
                 </ul>-->
             </div>
             <img id="contact_image" src="assets/images/yoga-animated.jpg" alt="woman practicing yoga">
-            
+
 
         </section>
     </main>
 
     <!-- Footer -->
     <footer id="footer">
+        <!-- Add target so it opens in a new tab -->
         <div id="social_links">
             <a href="#"><i class="fa fa-facebook-f"></i></a>
             <a href="#"><i class="fa-brands fa-instagram"></i></a>

@@ -32,6 +32,9 @@ header a {
     color: #0B0A09;
 }
 
+#cover{
+    background: url(/assets/images/woman-doing-yoga.jpg) no-repeat center/cover;
+}
 
 /* Main Content */
 section {
@@ -46,13 +49,7 @@ section {
 
 .content_container {
     margin: 25px;
-    
-
 }
-
-/*.content_container h2 {
-    font-family: 'cherry swash', serif;
-}*/
 
 /* About Us */
 #about_us {
@@ -126,22 +123,6 @@ input [type=text] {
     cursor: pointer;
 }
 
-.signup_left {
-    display: flex;
-    justify-content: left;
-    align-items: left;
-}
-
-#image_signup {
-    display: flex;
-    justify-content: left;
-    align-items: left;
-    border-radius: 50%;
-    height: 300px;
-    margin-right: 70px;
-    margin-top: 40px;
-}
-
 /* Contact */
 #opening_hours {
     background-color: #E9D8DD;
@@ -184,3 +165,21 @@ td {
     color: #0B0A09;
 }
 
+/* Media query */
+
+/* Small devices (600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    #opening_hours {
+        flex-wrap: wrap;
+        }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+
+}
