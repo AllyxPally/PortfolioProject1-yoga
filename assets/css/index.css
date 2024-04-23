@@ -42,9 +42,6 @@ header a {
     font-family: 'cherry swash', serif;
 }
 
-#cover {
-    background: url(/assets/images/woman-doing-yoga.jpg) no-repeat center/cover;
-}
 
 /* Main Content */
 section {
@@ -58,10 +55,22 @@ section {
     margin: 25px;
 }
 
+#cover {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background: url(/assets/images/woman-doing-yoga.jpg) no-repeat center/cover;
+}
+
 #cover_content {
     display: flex;
+    height: 65%;
+    justify-content: space-around;
     align-items: center;
     flex-direction: column;
+    align-items: center;
+    margin: 62px;
+    padding-bottom: 85px;
 }
 
 .cover_text {
@@ -72,21 +81,9 @@ section {
     padding: 5px;
 }
 
-#cover_button {
-    max-width: 150px;
-    width: 100%;
-    margin: 30px;
-    border-radius: 4px;
-    border: none;
-    line-height: 18px;
-    background-color: #EDB6A3;
-    color: #0B0A09;
-    padding: 12px;
-    font-family: 'cherry swash', serif;
-}
-
-#cover_button:hover {
-    cursor: pointer;
+#cover_p {
+    margin-bottom: 67px;
+    line-height: 2px;
 }
 
 /* About Us */
@@ -102,7 +99,7 @@ section {
 
 #about_us p {
     font-family: 'montserrat', italic;
-    font-size: normal;
+    font-size: 16px;
 }
 
 /* Sign Up form*/
@@ -148,8 +145,11 @@ input [type=text] {
 }
 
 .form_button {
+    max-width: 100px;
+    width: 100%;
     margin-top: 10px;
     border-radius: 4px;
+    border: none;
     line-height: 8px;
     background-color: #ffffff;
     color: #0B0A09;
@@ -161,23 +161,23 @@ input [type=text] {
     cursor: pointer;
 }
 
-/* Contact */
+/* Opening Hours */
 #opening_hours {
     background-color: #E9D8DD;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     font-family: 'cherry swash', serif;
     padding: 2%;
 }
-
 
 table,
 th,
 td {
     border: 1px solid #0B0A09;
+    padding: 15px;
 }
 
-#contact_image {
+#opening_image {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -191,6 +191,7 @@ td {
 #footer {
     line-height: 20px;
     padding: 10px;
+    background-color: #BDB0A7;
 }
 
 #social_links {
