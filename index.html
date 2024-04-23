@@ -8,22 +8,28 @@
     <meta name="keywords" content="Yoga, yoga classes, exercise, mindfulness, relaxation">
     <script src="https://kit.fontawesome.com/76429607c8.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/png" href="assets/images/yoga-favicon.png">
-    <link rel="stylesheet" href="assets/index.css">
+    <link rel="stylesheet" href="assets/css/index.css">
     <title>Mindful Moves</title>
 </head>
 
 <body>
     <!-- Header -->
     <header>
-        
+
         <nav>
-            <h1>Mindful Moves</h1> <!-- Style this and fix the nav links so they are moved
-            back to their proper position -->
+            <a href="index.html">
+                <h1 id="logo">Mindful Moves</h1> <!-- Need another font-->
+            </a>
+
             <ul>
+                <!-- Something is wrong, they have moved position after the logo was 
+            added. I have tried moving the logo around, but the only thing that puts the links
+        back to their original position is if i remove the logo -->
                 <li><a href="#about_us">About Us</a></li>
                 <li><a href="#sign_up">Sign Up</a></li>
-                <li><a href="#contact">Opening Hours</a></li>
+                <li><a href="#opening_hours">Opening Hours</a></li>
             </ul>
+
         </nav>
     </header>
 
@@ -33,9 +39,9 @@
         <section id="cover">
 
             <div id="cover_content">
-                <h2>Enter some text here</h2>
-                <p>Enter some more text here</p>
-                <a href="#about_us"><button>Read More</button></a>
+                <h2 class="cover_text">Welcome to Mindful Moves</h2>
+                <p class="cover_text">A place for peace of mind</p>
+                <a href="#about_us"><button id="cover_button">Read More</button></a>
             </div>
 
         </section>
@@ -68,9 +74,9 @@
         <!-- Sign Up -->
         <section id="sign_up">
             <div class="content_container">
-                <!--<h2>Sign Up</h2>-->
-                <!-- This text should be centered above the form or possibly 
-                    be deleted due to lack of purpose. Add a page that shows when someone
+                <!--<h2>Sign Up To Join One Of Our Classes!</h2>-->
+                <!-- This text should be centered above the form. 
+                    Add a page that shows when someone
                 submits a message -->
                 <form id="signup_form">
                     <label for="name" class="form_label name">Name</label>

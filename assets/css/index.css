@@ -10,45 +10,83 @@
 
 /* Header */
 header {
-    height: 50px;
+    height: 60px;
+    background-color: #BDB0A7;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
 }
 
 header nav ul {
     display: flex;
-    justify-content: right;
-    margin-left: 65%;
+    justify-content: space-around;
+    margin: 5px;
     list-style: none;
-    font-family: 'cherry swash', serif;
 }
+
 
 header nav ul li {
     display: flex;
-    justify-content: right;
-    padding: 5%;
+    justify-content: space-around;
+    /*align-items: center;*/
+    margin: 10px;
 }
 
 header a {
     text-decoration: none;
     color: #0B0A09;
+    font-family: 'cherry swash', serif;
 }
 
-#cover{
+#cover {
     background: url(/assets/images/woman-doing-yoga.jpg) no-repeat center/cover;
 }
 
 /* Main Content */
 section {
     display: flex;
-    flex-wrap: wrap;
-    /* This makes everything centered no matter what i do, might have to fix this */
-    /*justify-content: center;
-    align-items: center;*/
+    /*flex-wrap: wrap;*/
     height: 80vh;
     border: 1px solid #0B0A09;
 }
 
 .content_container {
     margin: 25px;
+}
+
+#cover_content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cover_text {
+    display: flex;
+    justify-content: center;
+    font-family: 'cherry swash', serif;
+    margin: 22px;
+    padding: 5px;
+}
+
+#cover_button {
+    max-width: 150px;
+    width: 100%;
+    margin: 30px;
+    border-radius: 4px;
+    border: none;
+    line-height: 18px;
+    background-color: #EDB6A3;
+    color: #0B0A09;
+    padding: 12px;
+    font-family: 'cherry swash', serif;
+}
+
+#cover_button:hover {
+    cursor: pointer;
 }
 
 /* About Us */
@@ -72,7 +110,7 @@ section {
     background-color: #DBBDC6;
     display: flex;
     justify-content: center;
-    /*font-family: 'cherry swash', serif;*/
+    font-family: 'cherry swash', serif;
 }
 
 
@@ -165,21 +203,17 @@ td {
     color: #0B0A09;
 }
 
-/* Media query */
+/* Media queries */
 
 /* Small devices (600px and down) */
-@media only screen and (max-width: 600px) {
-
-}
+@media only screen and (max-width: 600px) {}
 
 /* Medium devices (tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
     #opening_hours {
         flex-wrap: wrap;
-        }
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (max-width: 992px) {
-
-}
+@media only screen and (max-width: 992px) {}
