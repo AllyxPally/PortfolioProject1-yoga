@@ -58,7 +58,7 @@ section {
     display: flex;
     justify-content: left;
     align-items: center;
-    background: url(/assets/images/woman-doing-yoga.jpg) no-repeat center/cover;
+    background: url("/assets/images/woman-doing-yoga.jpg") no-repeat center/cover;
 }
 
 #cover_content {
