@@ -1,7 +1,5 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sansita+Swashed:wght@300..900&display=swap');
 /* Asterisk wildcard selector to override default styles */
 * {
     padding: 0;
@@ -39,20 +37,20 @@ header nav ul li {
 header a {
     text-decoration: none;
     color: #0B0A09;
-    font-family: 'cherry swash', serif;
+    font-family: 'sansita swashed', system-ui;
 }
 
 
 /* Main Content */
 section {
     display: flex;
-    /*flex-wrap: wrap;*/
     height: 80vh;
     border: 1px solid #0B0A09;
 }
 
 .content_container {
     margin: 25px;
+    padding: inherit;
 }
 
 #cover {
@@ -76,7 +74,7 @@ section {
 .cover_text {
     display: flex;
     justify-content: center;
-    font-family: 'cherry swash', serif;
+    font-family: 'sansita swashed', system-ui;
     margin: 22px;
     padding: 5px;
 }
@@ -94,7 +92,7 @@ section {
 }
 
 #about_us h2 {
-    font-family: 'cherry swash', serif;
+    font-family: 'sansita swashed', system-ui;
 }
 
 #about_us p {
@@ -107,7 +105,7 @@ section {
     background-color: #DBBDC6;
     display: flex;
     justify-content: center;
-    font-family: 'cherry swash', serif;
+    font-family: 'sansita swashed', system-ui;
 }
 
 
@@ -127,7 +125,7 @@ section {
     width: 100%;
     height: 25px;
     margin-top: 8px;
-    font-family: 'cherry swash', serif;
+    font-family: 'sansita swashed', system-ui;
     font-size: medium;
 }
 
@@ -139,7 +137,6 @@ input [type=text] {
 .form_textarea {
     width: 100%;
     height: 95px;
-    /*border: 1px solid #0B0A09;*/
     padding: 10px;
     box-sizing: border-box;
 }
@@ -154,7 +151,7 @@ input [type=text] {
     background-color: #ffffff;
     color: #0B0A09;
     padding: 12px;
-    font-family: 'cherry swash', serif;
+    font-family: 'sansita swashed', system-ui;
 }
 
 .form_button:hover {
@@ -166,7 +163,7 @@ input [type=text] {
     background-color: #E9D8DD;
     display: flex;
     justify-content: space-evenly;
-    font-family: 'cherry swash', serif;
+    font-family: 'sansita swashed', system-ui;
     padding: 2%;
 }
 
