@@ -58,7 +58,7 @@ section {
     display: flex;
     justify-content: left;
     align-items: center;
-    background: url(assets/images/woman-doing-yoga.jpg) no-repeat center/cover;
+    background: url(../images/woman-doing-yoga.jpg) no-repeat center/cover;
 }
 
 #cover_content {
@@ -88,7 +88,7 @@ section {
 /* About Us */
 
 #about_us {
-    background-color: #BDB0A7;
+    background-color: #E9D8DD;
     justify-content: center;
     align-items: center;
 }
