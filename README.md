@@ -1,110 +1,69 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+Mindful Moves
 
-Welcome Alicia G,
+The Mindful Moves website is a landing page for anyone interested in learning more about yoga and would like to join our yoga classes. Mindful Moves offers yoga classes for all ages and fitness levels. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Users of this website will be able to find everything they need to know about the business: About the business, a sign up form and opening hours. This website is targeted towards anyone who's interested in taking a yoga class.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+Features
 
-## Gitpod Reminders
+Navigation
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+At the top of the page the navigation shows the business name in the left corner: Mindful Moves that links to the top of the page. 
 
-`python3 -m http.server`
+The other navigation links are to the right: About Us, Sign Up and Opening Hours which link to different sections of the same page.
 
-A blue button should appear to click: _Make Public_,
+The font used for the navigation looks like .... and is in a contrasting colour to the background.
 
-Another blue button should appear to click: _Open Browser_.
+The navigation plainly tells the user the name of the website and business and the different sections of the information are easy to find.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+The Header 
 
-A blue button should appear to click: _Make Public_,
+The header contains the name of the business.
 
-Another blue button should appear to click: _Open Browser_.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+The About Us Section
 
-To log into the Heroku toolbelt CLI:
+In the about us section users will find information about some of the benefits of
+doing yoga. 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+The Sign Up Form
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+In the sign up section there is a form users can use if they want to get more 
+information about the business before they choose to take a class.
 
-------
+The form collects the person's name, email address and a message form the user.
 
-## Release History
+When a user use the form to send a message they 'll see a confirmation message, telling them their message has been sent. 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+Opening Hours
 
-**September 20 2023:** Update Python version to 3.9.17.
+The opening hours section cleary shows the user when Mindful Moves is open.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+Testing 
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+I tested that this page works in different browsers: Firefox, Chrome. 
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+I have confirmed that the form works, it requires entries in every field and will only accept an email in the email field and the submit button works. 
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+Bugs 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+I noticed that the cover image in my project didn't show up when i deployed it to GitHub Pages.  This was because i had used a absolute filepath in the url. 
+Removing the / and adding ../ solved the problem
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+Validator testing 
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+HTML 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+CSS
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+Accessibility
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+Unfixed Bugs
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+Deployment
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+Credits 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+Media 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+The images used on the website were taken from https://pixabay.com/
