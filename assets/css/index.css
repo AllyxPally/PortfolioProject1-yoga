@@ -7,10 +7,13 @@
     margin: 0;
 }
 
-/* Header */
+
+/* Header */ 
 header {
-    height: 60px;
-    background-color: #BDB0A7;
+    max-height: 100%;
+    background-color: #F39f8c;
+    position: fixed;
+    width: 100vw;
 }
 
 nav {
@@ -31,7 +34,6 @@ header nav ul {
 header nav ul li {
     display: flex;
     justify-content: space-around;
-    /*align-items: center;*/
     margin: 10px;
 }
 
@@ -42,16 +44,19 @@ header a {
 }
 
 
+
+
 /* Main Content */
+
 section {
     display: flex;
-    height: 80vh;
+    /*min-height: 80vh;*/ /* Remember to remove this before sending in the assignment. Test the
+    web page when this is uncommented */
     border: 1px solid #0B0A09;
 }
 
-.content_container {
+.content_container { /* Tried flex wrap here */
     margin: 25px;
-    /*padding: inherit; This affect all containers with this class name*/
 }
 
 #cover {
@@ -70,6 +75,7 @@ section {
     align-items: center;
     margin: 62px;
     padding-bottom: 85px;
+    background-color: rgba(249, 235, 235, 0.7);
 }
 
 .cover_text {
@@ -166,11 +172,16 @@ input [type=text] {
 
 /* Opening Hours */
 #opening_hours {
-    background-color: #E9D8DD;
+    background-color: #F18C75;
     display: flex;
     justify-content: space-evenly;
     font-family: 'sansita swashed', system-ui;
     padding: 2%;
+}
+
+#open_container {
+    padding: 25px;
+    margin-right: 20px;
 }
 
 table,
@@ -185,9 +196,11 @@ td {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    height: 400px;
+    /*min-height: 400px;*/
     margin: 20px;
     padding: 12px;
+    max-width: 100%;
+    height: auto;
 }
 
 /* Footer */
@@ -207,17 +220,46 @@ td {
     color: #0B0A09;
 }
 
+.submit_page  {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #F18C75;
+   
+}
+
+.submit_page h1, p {
+    margin: 12px;
+    padding: 5px;
+    font-family: 'sansita swashed', system-ui;
+} 
+
 /* Media queries */
 
 /* Small devices (600px and down) */
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 12px;
+        font-size: 10px;
+    }
+    section {
+        padding-bottom: 8px;
+    }
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
+
+    section {
+        padding-bottom: 15px;
+    }
+    
     #opening_hours {
         flex-wrap: wrap;
     }
 }
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (max-width: 992px) {}
