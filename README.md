@@ -6,22 +6,22 @@ Users of this website will be able to find everything they need to know about th
 
 ## Features
 
-Navigation
+* Navigation
 
-At the top of the page the navigation shows the business name in the left corner: Mindful Moves that links to the top of the page. 
+  - At the top of the page the navigation shows the business name in the left corner: Mindful Moves that links to the top of the page. 
 
-The other navigation links are to the right: About Us, Sign Up and Opening Hours which link to different sections of the same page.
+  - The other navigation links are to the right: About Us, Sign Up and Opening Hours which link to different sections of the same page.
 
-The font used for the navigation looks like  and is in a contrasting colour to the background.
+  - The font used for the navigation looks like  and is in a contrasting colour to the background.
 
-The navigation plainly tells the user the name of the website and business and the different sections of the information are easy to find.
+  - The navigation plainly tells the user the name of the website and business and the different sections of the information are easy to find.
 
-The Header 
+* The Header 
 
-The header contains the name of the business.
+  - The header contains the name of the business.
 
 
-The About Us Section
+* The About Us Section
 
 In the about us section users will find information about some of the benefits of
 doing yoga. 
@@ -39,13 +39,13 @@ Opening Hours
 
 The opening hours section cleary shows the user when Mindful Moves is open.
 
-Testing 
+## Testing 
 
 I tested that this page works in different browsers: Firefox, Chrome. 
 
 I have confirmed that the form works, it requires entries in every field and will only accept an email in the email field and the submit button works. 
 
-Bugs 
+### Bugs 
 
 I noticed that the cover image in my project didn't show up when i deployed it to GitHub Pages.  This was because i had used a absolute filepath in the url. 
 Removing the / and adding ../ solved the problem
@@ -60,10 +60,15 @@ Accessibility
 
 Unfixed Bugs
 
-Deployment
+## Deployment
 
-Credits 
+* The site was deployed using GitHub Pages. The steps to deploy is as follows: 
+  - In the GitHub repository, go to the settings tab
+  - From the source section drop-down menu, select the main branch
+  - Once the main branch has been selected, a link to the completed website has been provided.
 
-Media 
+## Credits 
+
+#### Media 
 
 The images used on the website were taken from https://pixabay.com/
