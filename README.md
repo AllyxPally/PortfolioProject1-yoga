@@ -1,10 +1,10 @@
-Mindful Moves
+# Mindful Moves
 
 The Mindful Moves website is a landing page for anyone interested in learning more about yoga and would like to join our yoga classes. Mindful Moves offers yoga classes for all ages and fitness levels. 
 
 Users of this website will be able to find everything they need to know about the business: About the business, a sign up form and opening hours. This website is targeted towards anyone who's interested in taking a yoga class.
 
-Features
+## Features
 
 Navigation
 
@@ -12,7 +12,7 @@ At the top of the page the navigation shows the business name in the left corner
 
 The other navigation links are to the right: About Us, Sign Up and Opening Hours which link to different sections of the same page.
 
-The font used for the navigation looks like .... and is in a contrasting colour to the background.
+The font used for the navigation looks like  and is in a contrasting colour to the background.
 
 The navigation plainly tells the user the name of the website and business and the different sections of the information are easy to find.
 
