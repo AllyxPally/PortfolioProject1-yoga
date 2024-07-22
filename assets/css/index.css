@@ -41,8 +41,17 @@ header a {
     text-decoration: none;
     color: #0B0A09;
     font-family: 'sansita swashed', system-ui;
+} 
+
+/* Menu toogle */
+
+#menu_toogle:checked {
+    display: block;
 }
 
+#menu_toogle {
+    display: none;
+}
 
 /* Main Content */
 
