@@ -26,7 +26,7 @@ Users of this website will be able to find everything they need to know about th
 In the about us section users will find information about some of the benefits of
 doing yoga. 
 
-The Sign Up Form
+* The Sign Up Form
 
 In the sign up section there is a form users can use if they want to get more 
 information about the business before they choose to take a class.
@@ -50,13 +50,13 @@ I have confirmed that the form works, it requires entries in every field and wil
 I noticed that the cover image in my project didn't show up when i deployed it to GitHub Pages.  This was because i had used a absolute filepath in the url. 
 Removing the / and adding ../ solved the problem
 
-Validator testing 
+## Validator testing 
 
-HTML 
+* HTML 
 
-CSS
+* CSS
 
-Accessibility
+* Accessibility
 
 Unfixed Bugs
 
