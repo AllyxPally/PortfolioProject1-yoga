@@ -126,6 +126,7 @@ section {
 #signup_container {
     padding: 25px;
     margin-right: 20px;
+    margin-top: 10%;
 }
 
 #signup_img {
@@ -133,10 +134,10 @@ section {
     justify-content: center;
     /*align-items: center;*/
     border-radius: 50%;
-    min-height: 200px;
+    /*min-height: 200px;*/
     margin: 20px;
     padding: 9px;
-    max-width: 100%;
+    max-width: 75%;
 }
 
 #signup_form {
@@ -214,10 +215,10 @@ td {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    min-height: 400px;
+    /*min-height: 400px;*/
     margin: 20px;
     padding: 12px;
-    max-width: 100%;
+    max-width: 75%;
 }
 
 /* Footer */
