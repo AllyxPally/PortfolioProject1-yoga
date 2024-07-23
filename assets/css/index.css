@@ -132,7 +132,6 @@ section {
 #signup_img {
     display: flex;
     justify-content: center;
-    /*align-items: center;*/
     border-radius: 50%;
     /*min-height: 200px;*/
     margin: 20px;
@@ -196,12 +195,12 @@ input [type=text] {
     display: flex;
     justify-content: space-evenly;
     font-family: 'sansita swashed', system-ui;
-    padding: 2%;
 }
 
 #open_container {
     padding: 25px;
     margin-right: 20px;
+    margin-top: 12%;
 }
 
 table,
