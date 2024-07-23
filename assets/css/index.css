@@ -187,6 +187,7 @@ input [type=text] {
 
 .form_button:hover {
     cursor: pointer;
+    background-color: rgba(249, 235, 235, 0.7);
 }
 
 /* Opening Hours */
