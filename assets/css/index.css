@@ -107,9 +107,10 @@ section {
 
 #about_us h2 {
     font-family: 'sansita swashed', system-ui;
+    margin-left: 1%;
 }
 
-#about_us p {
+#about_content p {
     font-family: 'montserrat', italic;
     font-size: 16px;
 }
