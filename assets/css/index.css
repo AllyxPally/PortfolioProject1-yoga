@@ -110,6 +110,14 @@ section {
     margin-left: 1%;
 }
 
+.h_text {
+    font-size: larger;
+    text-align: center;
+    font-family: 'montserrat', italic;
+    text-decoration-line: underline;
+    
+}
+
 #about_content p {
     font-family: 'montserrat', italic;
     font-size: 16px;
