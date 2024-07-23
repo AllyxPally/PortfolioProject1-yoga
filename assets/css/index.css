@@ -288,6 +288,10 @@ p {
         padding-bottom: 15px;
     }
 
+    #sign_up {
+        flex-wrap: wrap;
+    }
+
     #opening_hours {
         flex-wrap: wrap;
     }
