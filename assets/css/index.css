@@ -10,6 +10,9 @@
 
 /* Header */
 header {
+    /* ADDED NEW CODE TO TEST */
+    display: flex;
+    justify-content: space-between;
     max-height: 100%;
     background-color: #F39f8c;
     position: fixed;
@@ -17,10 +20,12 @@ header {
 }
 
 nav {
+    /*display: none;*/
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 12px;
+    width: 100vw;
 }
 
 header nav ul {
@@ -51,6 +56,13 @@ header a {
 
 #menu_toogle {
     display: none;
+}
+
+.menu_toogle_label {
+    font-size: x-large;
+    position: absolute;
+    right: 0;
+    margin: 1.5rem;
 }
 
 /* Main Content */
@@ -267,22 +279,29 @@ p {
 
 /* Extra small devices (320px and up) */
 @media only screen and (max-width: 320px) {
-    nav {
+    /*nav ul {
         display: flex;
         align-items: center;
         justify-content: space-evenly;
         padding: 12px;
-        font-size: 8px;
-    }
+        font-size: 8px;*/
 }
+
+
 
 /* Small devices (600px and down) */
 @media only screen and (max-width: 600px) {
     nav {
-        display: flex;
+        display: block;
+
+        /*display: flex;
         align-items: center;
         padding: 12px;
-        font-size: 10px;
+        font-size: 10px;*/
+    }
+
+    header {
+        display: flex;
     }
 
     section {
@@ -297,11 +316,20 @@ p {
         padding-bottom: 15px;
     }
 
+
+
+
     #sign_up {
         flex-wrap: wrap;
     }
 
     #opening_hours {
         flex-wrap: wrap;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .menu_toogle_label {
+        display: none;
     }
 }
