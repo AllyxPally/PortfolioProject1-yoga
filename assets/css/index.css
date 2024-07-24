@@ -41,11 +41,11 @@ header a {
     text-decoration: none;
     color: #0B0A09;
     font-family: 'sansita swashed', system-ui;
-} 
+}
 
 /* Menu toogle */
 
-#menu_toogle:checked {
+#menu_toogle:checked~nav {
     display: block;
 }
 
@@ -62,8 +62,7 @@ section {
 }
 
 .content_container {
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-top: 2px;
 }
 
 #cover {
@@ -116,7 +115,7 @@ section {
     text-align: center;
     font-family: 'montserrat', italic;
     text-decoration-line: underline;
-    
+
 }
 
 #about_content p {
@@ -126,7 +125,7 @@ section {
 
 /* Sign Up form*/
 #sign_up {
-    display: flex; 
+    display: flex;
     background-color: #F18C75;
     justify-content: space-evenly;
     font-family: 'sansita swashed', system-ui;
@@ -134,8 +133,7 @@ section {
 
 #signup_container {
     padding: 25px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-right: 20px;
     margin-top: 10%;
 }
 
