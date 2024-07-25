@@ -58,6 +58,9 @@ Removing the / and adding ../ solved the problem
 * CSS
 
 * Accessibility
+
+- I have confirmed that the website is accessible by running it through lighthouse in devtools.
+
 ![Screenshot of result for lighthouse](/assets/images/Screenshot1.png)
 
 Unfixed Bugs
