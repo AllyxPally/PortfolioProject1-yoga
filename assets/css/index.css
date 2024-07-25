@@ -48,7 +48,7 @@ header a {
 
 /* Menu toogle */
 
-#menu_toogle:checked~nav {
+/*#menu_toogle:checked~nav {
     display: block;
 }
 
@@ -62,7 +62,7 @@ header a {
     right: 0;
     margin: 1.5rem;
     cursor: pointer;
-}
+}/*
 
 /* Main Content */
 
@@ -278,20 +278,19 @@ p {
 @media only screen and (max-width: 320px) {
     nav ul {
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: space-between;
         padding: 12px;
+    }
 }
-}
-
-
 
 /* Small devices (600px and down) */
 @media only screen and (max-width: 600px) {
     nav {
-        /*display: block;*/
-
         display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
         align-items: center;
         padding: 12px;
     }
@@ -312,9 +311,6 @@ p {
         padding-bottom: 15px;
     }
 
-
-
-
     #sign_up {
         flex-wrap: wrap;
     }
@@ -324,8 +320,8 @@ p {
     }
 }
 
-@media only screen and (min-width: 768px) {
+/*@media only screen and (min-width: 768px) {
     .menu_toogle_label {
         display: none;
     }
-}
+}*/
