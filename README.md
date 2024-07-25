@@ -14,13 +14,12 @@ Users of this website will be able to find everything they need to know about th
 
   - The other navigation links are to the right: About Us, Sign Up and Opening Hours which link to different sections of the same page.
 
-  - The font used for the navigation looks like  and is in a contrasting colour to the background.
-
   - The navigation plainly tells the user the name of the website and business and the different sections of the information are easy to find.
 
 * The Header 
 
-  - The header contains the name of the business.
+  - The header contains the name of the business to the left.
+  - The header explains that this is a website for a yoga place. 
 
 
 * The About Us Section
@@ -59,6 +58,7 @@ Removing the / and adding ../ solved the problem
 * CSS
 
 * Accessibility
+![Screenshot of result for lighthouse](/assets/images/Screenshot1.png)
 
 Unfixed Bugs
 
