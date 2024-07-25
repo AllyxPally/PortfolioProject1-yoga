@@ -97,4 +97,4 @@ No unfixed bugs
 
 #### Media 
 
-The images used on the website were taken from https://pixabay.com/
+* The images used on the website were taken from https://pixabay.com/
