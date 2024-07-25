@@ -44,7 +44,7 @@ information about the business before they choose to take a class.
 
 * Opening Hours
 
-The opening hours section cleary shows the user when Mindful Moves is open.
+   - The opening hours section cleary shows the user when Mindful Moves is open.
 
 ![Screenshot of opening hours section](/assets/images/Screenshot6.png)
 
