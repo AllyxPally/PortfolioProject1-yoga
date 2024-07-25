@@ -266,6 +266,13 @@ p {
         padding: 12px;
         font-size: smaller;
     }
+
+.cover_text {
+    font-size: smaller;
+}
+#cover_content {
+    margin-left: 20px;
+}
 }
 
 /* Small devices (600px and down) */
@@ -284,6 +291,12 @@ p {
 
     section {
         padding-bottom: 8px;
+    }
+    .cover_text {
+        font-size: smaller;
+    }
+    #cover_content {
+        margin-left: 30px;
     }
 }
 
