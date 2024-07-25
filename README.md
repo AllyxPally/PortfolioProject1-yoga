@@ -54,12 +54,14 @@ Removing the / and adding ../ solved the problem
 ## Validator testing 
 
 * HTML 
+  - No errors were returned when i ran the code through the official WC3 validator
 
 * CSS
+  - No errors were found when running the code through the official CSS validator (Jigsaw)
 
 * Accessibility
 
-- I have confirmed that the website is accessible by running it through lighthouse in devtools.
+  - I have confirmed that the website is accessible by running it through lighthouse in devtools
 
 ![Screenshot of result for lighthouse](/assets/images/Screenshot1.png)
 
