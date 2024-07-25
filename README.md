@@ -8,7 +8,7 @@ Users of this website will be able to find everything they need to know about th
 
 ## Features
 
-##### Navigation
+* Navigation
 
   - At the top of the page the navigation shows the business name in the left corner: Mindful Moves that links to the top of the page. 
 
@@ -26,8 +26,8 @@ Users of this website will be able to find everything they need to know about th
 
 * The About Us Section
 
-In the about us section users will find information about some of the benefits of
-doing yoga. 
+  - In the about us section users will find information about some of the benefits of
+doing yoga and why they should choose Mindful Yogas classes.
 
 ![Screenshot of about us section](/assets/images/Screenshot4.png)
 
