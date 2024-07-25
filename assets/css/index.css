@@ -230,7 +230,7 @@ td {
 #social_links {
     display: flex;
     justify-content: space-around;
-    align-items: right;
+    /*align-items: right;*/
 }
 
 #social_links a {
