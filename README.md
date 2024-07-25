@@ -16,6 +16,8 @@ Users of this website will be able to find everything they need to know about th
 
   - The navigation plainly tells the user the name of the website and business and the different sections of the information are easy to find.
 
+  ![Screenshot of the navigation](/assets/images/Screenshot3.png)
+
 * The Header 
 
   - The header contains the name of the business to the left.
@@ -27,6 +29,8 @@ Users of this website will be able to find everything they need to know about th
 In the about us section users will find information about some of the benefits of
 doing yoga. 
 
+![Screenshot of about us section](/assets/images/Screenshot4.png)
+
 * The Sign Up Form
 
 In the sign up section there is a form users can use if they want to get more 
@@ -36,9 +40,16 @@ The form collects the person's name, email address and a message form the user.
 
 When a user use the form to send a message they 'll see a confirmation message, telling them their message has been sent. 
 
+![Screenshot of sign up section](/assets/images/Screenshot5.png)
+
 Opening Hours
 
 The opening hours section cleary shows the user when Mindful Moves is open.
+
+![Screenshot of opening hours section](/assets/images/Screenshot6.png)
+
+Footer 
+![Screenshot of footer](/assets/images/Screenshot7.png)
 
 ## Testing 
 
@@ -65,7 +76,9 @@ Removing the / and adding ../ solved the problem
 
 ![Screenshot of result for lighthouse](/assets/images/Screenshot1.png)
 
-Unfixed Bugs
+### Unfixed Bugs
+
+No unfixed bugs
 
 ## Deployment
 
