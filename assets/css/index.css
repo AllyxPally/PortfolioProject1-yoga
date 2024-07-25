@@ -46,24 +46,6 @@ header a {
     font-family: 'sansita swashed', system-ui;
 }
 
-/* Menu toogle */
-
-/*#menu_toogle:checked~nav {
-    display: block;
-}
-
-#menu_toogle {
-    display: none;
-}
-
-.menu_toogle_label {
-    font-size: x-large;
-    position: absolute;
-    right: 0;
-    margin: 1.5rem;
-    cursor: pointer;
-}/*
-
 /* Main Content */
 
 section {
@@ -319,9 +301,3 @@ p {
         flex-wrap: wrap;
     }
 }
-
-/*@media only screen and (min-width: 768px) {
-    .menu_toogle_label {
-        display: none;
-    }
-}*/
