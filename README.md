@@ -33,12 +33,12 @@ doing yoga and why they should choose Mindful Yogas classes.
 
 * The Sign Up Form
 
-In the sign up section there is a form users can use if they want to get more 
+   - In the sign up section there is a form users can use if they want to get more 
 information about the business before they choose to take a class.
 
-The form collects the person's name, email address and a message form the user.
+   - The form collects the person's name, email address and a message form the user.
 
-When a user use the form to send a message they 'll see a confirmation message, telling them their message has been sent. 
+   - When a user use the form to send a message they 'll see a confirmation message, telling them their message has been sent. 
 
 ![Screenshot of sign up section](/assets/images/Screenshot5.png)
 
