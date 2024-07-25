@@ -42,20 +42,26 @@ When a user use the form to send a message they 'll see a confirmation message, 
 
 ![Screenshot of sign up section](/assets/images/Screenshot5.png)
 
-Opening Hours
+* Opening Hours
 
 The opening hours section cleary shows the user when Mindful Moves is open.
 
 ![Screenshot of opening hours section](/assets/images/Screenshot6.png)
 
-Footer 
+* Footer 
+  - The footer contains social media links to Facebook, Instagram and Twitter
+
 ![Screenshot of footer](/assets/images/Screenshot7.png)
 
 ## Testing 
 
-I tested that this page works in different browsers: Firefox, Chrome. 
+* I tested that this page works in different browsers: Firefox, Chrome. 
 
-I have confirmed that the form works, it requires entries in every field and will only accept an email in the email field and the submit button works. 
+* I have confirmed that the form works, it requires entries in every field and will only accept an email in the email field and the submit button works. 
+
+* I have confirmed that the project is responsive and looks good on diffrent screen sizes using devtools.
+
+* I have confirmed that the navigation, about us, sign up, opening hours and footer is easy to understand. 
 
 ### Bugs 
 
