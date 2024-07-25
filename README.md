@@ -4,6 +4,8 @@ The Mindful Moves website is a landing page for anyone interested in learning mo
 
 Users of this website will be able to find everything they need to know about the business: About the business, a sign up form and opening hours. This website is targeted towards anyone who's interested in taking a yoga class.
 
+![Screenshot displaying the wesite on diffrent screens](/assets/images/Screenshot2.png)
+
 ## Features
 
 ##### Navigation
